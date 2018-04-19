@@ -10,7 +10,7 @@ def randomize( nrand ):
 		yrand = random.randint(min, max)*2 - 1
 
 		#find its distance from origin
-		rrand = xrand + yrand
+		rrand = math.sqrt(math.pow(2,xrand) + math.pow(2,yrand))
 		
 		#it falls inside the circle
 		if rrand <= 1:
