@@ -1,4 +1,5 @@
 import random
+import math
 
 def randomize( nrand ):
 	n_inside = 0
